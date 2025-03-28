@@ -336,7 +336,7 @@ let showPictures = true;
 // get pictures from planespotters.net
 let planespottersAPI = true;
 let planespottersAPIurl = "https://api.planespotters.net/pub/photos/";
-// get pictures from planespotting.be
+// get pictures from shadybraden.com
 let planespottingAPI = false;
 
 // get flight route from routeApi service

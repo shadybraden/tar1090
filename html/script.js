@@ -1610,7 +1610,7 @@ jQuery('#selected_altitude_geom1')
     }
     new Toggle({
         key: "planespottingAPI",
-        display: "Pictures planespotting.be",
+        display: "Pictures shadybraden.com",
         container: "#settingsRight",
         init: planespottingAPI,
         setState: function(state) {
@@ -3338,7 +3338,7 @@ function refreshPhoto(selected) {
         });
     } else if (planespottingAPI) {
         let req = jQuery.ajax({
-            url: 'https://www.planespotting.be/api/objects/imagesRegistration.php?registration=' + selected.registration,
+            url: 'https://www.shadybraden.com/aircraft/' + selected.icao.toUpperCase() + '.jpg',
             dataType: 'json',
             plane: selected,
         });

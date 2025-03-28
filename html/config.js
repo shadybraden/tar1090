@@ -327,7 +327,7 @@ HideCols = [
 // showPictures = true;
 // get pictures from planespotters.net
 // planespottersAPI = true;
-// get pictures from planespotting.be
+// get pictures from shadybraden.com
 // planespottingAPI = true;
 
 // get flight route from routeApi service
